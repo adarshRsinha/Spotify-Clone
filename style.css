@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans&family=Praise&display=swap');
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+   margin-top: -10px;
+   padding-left: 12px;
+   height: 85px;
+   margin-left: -10px;
+   color: aliceblue;
+   align-items: center;
+}
+
+nav{
+    font-family: sans-serif;
+}
+
+img{
+    width: 62px;
+    margin-top: 5px
+}
+
+.branch {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+nav ul li{
+    padding: 0px 15px;
+}
+
+.container{
+    min-height: 70vh;
+}
+
+.bottom{
+    background-color: black;
+    color: aliceblue;
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    margin-right: -8px;
+    margin-left: -8px;
+    /* margin-block: 11px; */
+    align-items: end;
+    justify-content: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+#myProgressBar{
+    width: 40vw;
+    position: absolute;
+    padding-block: 20px;
+}
+
+.icons{
+    font-size: 40px;
+    height: 100px;
+}
+
+.container{
+    /* min-height: 70vh; */
+    background-color: black;
+    color: aliceblue;
+    width: 90%;
+    margin: auto;
+    /* padding: 14px 10px; */
+    background-image: url('bg.jpg');
+}
+
+h1{
+    padding: 24px;
+    font-family: system-ui;
+    font-size: 40px;
+}
+
+.songItem{
+    height: 65px;
+    font-family: sans-serif;
+    display: flex;
+    background-color: rgb(236, 232, 232);
+    color: black;
+    margin: 40px;
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.songItem img{
+    width: 73px;
+    height: 65px;
+    padding: 0px 0px 5px;
+    border-radius: 5px;
+}
+
+.timestamp{
+    padding: 8px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
